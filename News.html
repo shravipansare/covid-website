@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>News</title>
+<style>
+body {
+  background-image: url('image/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;}
+.class1 {
+border-style:solid;
+border-width:4px;
+border-color:brown;
+border: double 15px rgba(255,255,255,0.7);
+background: rgba(255,255,255,0.7);
+background-clip: padding-box;}
+.class2 {border-style:grove;
+border-width:4px;
+border-color:blue;}
+.class3 {border-style:dashed;
+}
+img {
+clear: left;}
+.strokeme {
+  color: white;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+table th,td {
+    border:1px solid red;
+   border-radius:5px;
+}
+th,td{
+   padding-top:5px;
+    padding-bottom:5px;
+    padding-left:5px;
+    padding-right:5px;
+    text-align: center;
+}
+tr:hover{background-color:pink;}
+
+.topnav {
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+.topnav a {
+  float: left;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #94a8a1;
+  color: white;
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  padding: 2px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.zoom:hover {
+  -ms-transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1); 
+}
+</style>
+</head>
+<body>
+<div class="class1">
+<hr>
+
+<center><img src="image/logo.png" alt="Logo" style="width:400px">
+<br>
+<h1><span style="color:brown">(CLINICA MANAGEMENT
+PROTOCOL: <q>COVID-19</q>)</span>
+</h1>
+</center>
+<hr>
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a class="active" href="news.html">News</a>
+  <a href="contact.html">Contact</a>
+  <a  href="about.html">About</a>
+</div>
+<hr>
+<h2>NEWS ABOUT <u>COVID-19</u></h2>
+<hr>
+<div class="row">
+  <div class="column zoom">
+    <a href="https://timesofindia.indiatimes.com/coronavirus"><img src="image/image5.jpg" alt="Times of india" style="width:50%">
+ </a> </div>
+  <div class="column zoom">
+    <a href="https://www.hindustantimes.com/topic/coronavirus"><img src="image/image6.png" alt="Hindustan Time" style="width:70%"></a>
+  </div>
+  <div class="column zoom">
+    <a href="https://economictimes.indiatimes.com/coronavirus"><img src="image/image7.png" alt="The Economic Times" style="width:50%"></a>
+  </div>
+<div class="column zoom">
+<a href="https://indianexpress.com/section/coronavirus/"><img src="image/image8.jpg" alt="The indian express" style="width:60%"></a>
+</div>
+<div class="column zoom">
+<a href="https://www.esakal.com/pune/baramati-117-people-tested-positive-in-24-hour-rjs00"><img src="image/image9.png" alt="eskal" style="width:60%"></a>
+</div>
+</div>
+<hr>
+<H2>OVERVIEW</H2>
+<iframe src="https://ourworldindata.org/explorers/coronavirus-data-explorer?zoomToSelection=true&facet=none&hideControls=true&Metric=Confirmed+cases&Interval=Cumulative&Relative+to+Population=false&Align+outbreaks=false&country=~IND" loading="lazy" style="width: 100%; height: 600px; style="border:1px solid black;"></iframe>
+<hr>
+</div>
+</body>
+</html>
